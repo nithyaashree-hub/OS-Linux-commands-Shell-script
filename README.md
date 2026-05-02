@@ -106,7 +106,6 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
 ![alt text](8.jpeg)
 
 grep hello newfile 
@@ -122,7 +121,6 @@ grep -v hello newfile
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
 ![alt text](10.jpeg)
 
 
@@ -986,12 +984,11 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
-
- 
- ./funcex.sh 1 2
 ![alt text](77.jpeg)
- 
+ ./funcex.sh 
+ ./funcex.sh 1 2
+
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1003,8 +1000,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![alt text](78.jpeg)
 $ ./argshift.sh 1 2 3
- ![alt text](78.jpeg)
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1020,8 +1017,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![alt text](79.jpeg)
 $ ./argshift.sh 1 2 3
- ![alt text](79.jpeg)
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1033,8 +1030,8 @@ done
 set +x
 ```
 ## OUTPUT
+![alt text](80.jpeg)
  ./argshift.sh 1 2 3
- ![alt text](80.jpeg)
  
 cat > nc.awk
 ```bash
