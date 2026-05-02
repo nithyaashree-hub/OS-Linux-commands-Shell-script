@@ -52,6 +52,7 @@ cat < file2
 cmp file1 file2
 ## OUTPUT
 ![alt text](3.jpeg) 
+
 comm file1 file2
  ## OUTPUT
 ![alt text](4.jpeg)
@@ -321,6 +322,7 @@ cat > file21
 sort file21
 ## OUTPUT
 ![alt text](41a.jpeg)
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -340,6 +342,7 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 ![alt text](43.jpeg)
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -452,15 +455,18 @@ chmod 777 scriptest.sh
 ls file1
 ## OUTPUT
 ![alt text](53.jpeg)
+
 echo $?
 ## OUTPUT 
 ![alt text](54.jpeg)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
 ![alt text](54.jpeg)
+
 abcd
  
 echo $?
@@ -528,6 +534,7 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 ![alt text](57.jpeg)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -618,6 +625,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ## OUTPUT
 ![alt text](59.jpeg)
+
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -667,6 +675,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ## OUTPUT
 ![alt text](60.jpeg)
+
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -711,6 +720,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 ![alt text](62.jpeg)
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -806,6 +816,7 @@ $ chmod 755 forin2.sh
 $ ./forin2.sh 
 ## OUTPUT
 ![alt text](67.jpeg)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -818,6 +829,7 @@ done
 $ ./forin3.sh 
 ## OUTPUT
 ![alt text](68.jpeg)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -868,6 +880,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 ![alt text](70.jpeg)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -881,6 +894,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 ![alt text](71.jpeg)
+
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -920,6 +934,7 @@ $ chmod 755 forbreak.sh
 $ ./forbreak.sh 
 ## OUTPUT
 ![alt text](73.jpeg)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -941,6 +956,7 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
 ![alt text](74.jpeg) 
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -985,6 +1001,7 @@ fi
 ```
 ## OUTPUT
 ![alt text](77.jpeg)
+
  ./funcex.sh 
  ./funcex.sh 1 2
 
@@ -1001,6 +1018,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 ![alt text](78.jpeg)
+
 $ ./argshift.sh 1 2 3
  cat argshift1.sh
 ```bash
@@ -1018,6 +1036,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 ![alt text](79.jpeg)
+
 $ ./argshift.sh 1 2 3
 cat argshift.sh
 ```bash
@@ -1031,6 +1050,7 @@ set +x
 ```
 ## OUTPUT
 ![alt text](80.jpeg)
+
  ./argshift.sh 1 2 3
  
 cat > nc.awk
@@ -1063,6 +1083,7 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
 ![alt text](81.jpeg) 
+
 cat > palindrome.sh
 ```bash
 #num=545
